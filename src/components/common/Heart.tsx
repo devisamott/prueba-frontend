@@ -1,6 +1,6 @@
 import React from "react";
-import { Product } from "../ProductContext";
-import { useFavoritesContext } from "../FavoritesContext";
+import { Product } from "../../context/ProductContext";
+import { useFavoritesContext } from "../../context/FavoritesContext";
 import { IonIcon } from "@ionic/react";
 import { heart, heartOutline } from "ionicons/icons";
 

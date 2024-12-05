@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router";
-import { useProductContext } from "../ProductContext";
-import { Heart } from "./Heart";
-import { ImageWithSkeleton } from "./ImagesWithSkeleton";
+import { useProductContext } from "../../context/ProductContext";
+import { Heart } from "../common/Heart";
+import { ImageWithSkeleton } from "../ui/ImagesWithSkeleton";
 
 export const ProductList: React.FC = () => {
   const { filteredProducts } = useProductContext();

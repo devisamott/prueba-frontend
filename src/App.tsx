@@ -2,11 +2,11 @@ import React , {Suspense} from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ProductProvider } from './ProductContext';
-import { FavoritesProvider } from './FavoritesContext';
-import { Skeleton } from './components/Skeleton';
-import ErrorBoundary from './components/ErrorBoundary';
-import { NotFound } from './components/NotFound';
+import { ProductProvider } from './context/ProductContext';
+import { FavoritesProvider } from './context/FavoritesContext';
+import { Skeleton } from './components/common/Skeleton';
+import ErrorBoundary from './components/exception/ErrorBoundary';
+import { NotFound } from './components/exception/NotFound';
 
 const Home = React.lazy(() => import('./pages/Home'));
 const ProductInfo = React.lazy(() => import('./pages/ProductInfo'));

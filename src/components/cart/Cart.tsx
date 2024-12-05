@@ -1,7 +1,7 @@
 import React from "react";
 import { IonIcon } from "@ionic/react";
 import { cart } from "ionicons/icons";
-import { useFavoritesContext } from "../FavoritesContext";
+import { useFavoritesContext } from "../../context/FavoritesContext";
 
 export const Cart: React.FC = () => {
   const { favorites } = useFavoritesContext();

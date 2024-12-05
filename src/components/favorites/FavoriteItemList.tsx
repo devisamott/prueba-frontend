@@ -1,5 +1,5 @@
 import React from "react";
-import { useFavoritesContext } from "../FavoritesContext";
+import { useFavoritesContext } from "../../context/FavoritesContext";
 import { FavoriteItem } from "./FavoriteItem";
 import { EmptyFavoritesMessage } from "./EmptyFavoritesMessage";
 

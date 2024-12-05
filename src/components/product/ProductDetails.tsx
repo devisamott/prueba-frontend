@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart } from "./Heart";
+import { Heart } from "../common/Heart";
 
 interface Product {
   _id: number;

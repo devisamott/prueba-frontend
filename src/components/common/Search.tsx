@@ -1,6 +1,6 @@
 import React from "react";
 import { IonInput, IonItem } from "@ionic/react";
-import { useProductContext } from "../ProductContext";
+import { useProductContext } from "../../context/ProductContext";
 
 export const ButtonSearch: React.FC = () => {
   const { filterProducts } = useProductContext();

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
-import { fetchProducts } from "../service/apiService";
-import { Header } from "../components/Header";
-import { ButtonBack } from "../components/ButtonBack";
-import { Skeleton } from "../components/Skeleton";
-import { ImageCarousel } from "../components/ImageCarrousel";
-import { ProductDetails } from "../components/ProductDetails";
+import { fetchProducts } from "../../service/apiService";
+import { Header } from "../layout/Header";
+import { ButtonBack } from "../common/ButtonBack";
+import { Skeleton } from "../common/Skeleton";
+import { ImageCarousel } from "../ui/ImageCarrousel";
+import { ProductDetails } from "./ProductDetails";
 
 interface Product {
   _id: number;

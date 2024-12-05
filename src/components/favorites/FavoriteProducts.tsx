@@ -1,6 +1,6 @@
 import React from "react";
-import { ButtonBack } from "../components/ButtonBack";
-import { FavoriteItemsList } from "./FavoriteItemList";
+import { ButtonBack } from "../common/ButtonBack";
+import { FavoriteItemsList } from "../favorites/FavoriteItemList";
 
 const FavoriteProducts: React.FC = () => {
   return (

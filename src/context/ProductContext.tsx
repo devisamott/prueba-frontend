@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext, createContext } from "react";
-import { fetchProducts } from "./service/apiService";
+import { fetchProducts } from "../service/apiService";
 
 export interface Product{
     _id: string;

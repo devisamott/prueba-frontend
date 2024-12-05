@@ -1,9 +1,9 @@
 import React from "react";
 import { IonHeader, IonToolbar, IonRouterLink } from "@ionic/react";
 import { useHistory, useLocation } from "react-router-dom";
-import { ButtonSearch } from "./Search";
-import { Logo } from "./Logo";
-import { Cart } from "./Cart";
+import { ButtonSearch } from "../common/Search";
+import { Logo } from "../common/Logo";
+import { Cart } from "../cart/Cart";
 
 export const Header: React.FC = () => {
     
