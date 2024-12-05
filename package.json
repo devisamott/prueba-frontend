@@ -5,18 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "react-scripts build",
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
     "lint": "eslint"
   },
   "dependencies": {
-    "@capacitor/app": "6.0.2",
-    "@capacitor/core": "6.2.0",
-    "@capacitor/haptics": "6.0.2",
-    "@capacitor/keyboard": "6.0.3",
-    "@capacitor/status-bar": "6.0.2",
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/haptics": "^6.0.2",
+    "@capacitor/keyboard": "^6.0.3",
+    "@capacitor/status-bar": "^6.0.2",
     "@capacitor/storage": "^1.2.5",
     "@ionic/react": "^8.0.0",
     "@ionic/react-router": "^8.4.1",
@@ -52,5 +53,9 @@
     "vite": "~5.2.0",
     "vitest": "^0.34.6"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
