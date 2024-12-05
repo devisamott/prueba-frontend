@@ -3,6 +3,7 @@
 
 ## Estructura del Proyecto
 
+
 src/
 ├── components/
 │   ├── cart/
@@ -45,6 +46,8 @@ src/
 ├── App.tsx
 ├── index.css
 └── main.tsx
+
+
 
 Este proyecto es una aplicación de tienda en línea construida con **React** e **Ionic**. Permite a los usuarios buscar productos, ver detalles de los productos y gestionar su lista de favoritos. El proyecto sigue patrones de diseño para mejorar la escalabilidad y mantenibilidad del código.
 
