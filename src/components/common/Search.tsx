@@ -10,14 +10,16 @@ export const ButtonSearch: React.FC = () => {
   };
 
   return (
-    <div className="md:w-[600px] md:h-14 mb-2">
-      <IonItem>
-        <IonInput
-          type="text"
-          placeholder="     Buscar..."
-          className="bg-white border border-gray-400 h-10 md:w-full md:h-16 rounded-full pl-4 w-[220px] focus:outline-none"
-          onIonInput={onChange}
-        />
+    <div className="md:w-[500px] md:h-12 ">
+      <IonItem className="flex items-center p-0">
+        <div className="flex items-center bg-white px-4 md:py-6 border border-gray-400 rounded-full w-[400] md:w-full h-10 focus-within:outline-none">
+          <IonInput
+            type="text"
+            placeholder="Buscar..."
+            onIonInput={onChange}
+            className="w-full bg-transparent focus:outline-none"
+          />
+        </div>
       </IonItem>
     </div>
   );

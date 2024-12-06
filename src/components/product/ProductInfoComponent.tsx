@@ -57,7 +57,7 @@ const ProductInfoComponent: React.FC = () => {
         <div className="absolute left-0 md:left-14 md:top-40">
           <ButtonBack />
         </div>
-        <div className="p-4 flex flex-col justify-center items-center gap-x-16 mt-16">
+        <div className="p-4 flex flex-col justify-center items-center gap-x-16 mt-">
           {product ? (
             <>
               <ImageCarousel images={product.imagenes} />

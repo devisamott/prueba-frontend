@@ -13,11 +13,11 @@ export const ProductList: React.FC = () => {
   }
 
   return (
-   <div className="grid grid-cols-2 md:grid-cols-2 gap-4 p-4 lg:w-[1080px] ml-auto mr-auto mt-8">
+   <div className="grid grid-cols-2 md:grid-cols-2 gap-8 p-4 lg:w-[1080px] ml-auto mr-auto mt-8">
       {filteredProducts.map((product) =>{
        return(
         
-         <div key={product._id.toString()} className="lg:w-[500px] flex flex-col items-center border p-4 rounded-lg shadow-lg md:shadow-xs md:border-none">   
+         <div key={product._id.toString()} className="lg:w-[500px] cursor-pointer flex flex-col items-center border p-4 rounded-lg shadow-lg md:shadow-xs md:border-none">   
              <Heart productId={product._id} product={product}/>
              <ImageWithSkeleton
                src={product.imagen} 
