@@ -71,5 +71,22 @@ Este proyecto es una aplicación de tienda en línea construida con **React** e 
     ```bash
     ionic cap open android
     ```
+### Desafio
+
+Uno de los desafíos más grandes que enfrenté durante el desarrollo fue la implementación de **React** **Ionic**, ya que hacía años que no trabajaba con esta tecnología. Además, me encontré con varias herramientas y tecnologías que ya estaban deprecadas, lo que requirió investigar y encontrar soluciones óptimas para asegurar que el proyecto fuera compatible con las versiones actuales.
+
+Otro reto importante fue resolver **conflictos de dependencias**. Esto fue un desafío adicional, pero con un poco de investigación sobre las versiones de las librerías y herramientas utilizadas, pude solucionarlo y seguir adelante con el desarrollo.
+
+## Enfoque y Buenas Prácticas
+
+Este proyecto está diseñado para ser **escalable** y **mantenible**. He seguido buenas prácticas de desarrollo, implementando patrones de diseño que aseguran un código limpio, modular y fácil de expandir.
+
+## Mejoras y Futuro
+
+Aunque la aplicación ya está funcional, hay margen para realizar mejoras. Algunas posibles áreas de mejora incluyen:
+
+- **Optimización del rendimiento**: A medida que la aplicación crece, se pueden implementar estrategias adicionales a las ya implementadas para mejorar la carga y la experiencia del usuario.
+- **Escalabilidad**: El diseño está pensado para poder añadir más funcionalidades en el futuro sin comprometer la estructura actual.
+- **Mantenimiento**: Se sigue un enfoque modular que permite realizar cambios y actualizaciones de manera sencilla sin afectar otras partes del sistema.
 
 
