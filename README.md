@@ -3,51 +3,7 @@
 
 ## Estructura del Proyecto
 
-
-src/
-├── components/
-│   ├── cart/
-│   │   └── Cart.tsx
-│   ├── common/
-│   │   ├── ButtonBack.tsx
-│   │   ├── Heart.tsx
-│   │   ├── Logo.tsx
-│   │   ├── Search.tsx
-│   │   └── Skeleton.tsx
-│   ├── exception/
-│   │   ├── ErrorBoundary.tsx
-│   │   └── NotFound.tsx
-│   ├── favorites/
-│   │   ├── EmptyFavoritesMessage.tsx
-│   │   ├── FavoriteItem.tsx
-│   │   ├── FavoriteItemList.tsx
-│   │   └── FavoriteProducts.tsx
-│   ├── layout/
-│   │   └── Header.tsx
-│   ├── product/
-│   │   ├── ProductDetails.tsx
-│   │   ├── ProductInfoComponent.tsx
-│   │   └── ProductList.tsx
-│   └── ui/
-│       ├── ImageCarrousel.tsx
-│       └── ImagesWithSkeleton.tsx
-├── context/
-│   ├── FavoritesContext.tsx
-│   └── ProductContext.tsx
-├── pages/
-│   ├── Favorite.tsx
-│   ├── Home.tsx
-│   ├── PageNotFound.tsx
-│   └── ProductInfo.tsx
-├── service/
-│   └── apiService.ts
-├── theme/
-│   └── variables.css
-├── App.tsx
-├── index.css
-└── main.tsx
-
-
+![Estructura](/public/Assets/estructura-codigo.png)
 
 Este proyecto es una aplicación de tienda en línea construida con **React** e **Ionic**. Permite a los usuarios buscar productos, ver detalles de los productos y gestionar su lista de favoritos. El proyecto sigue patrones de diseño para mejorar la escalabilidad y mantenibilidad del código.
 
